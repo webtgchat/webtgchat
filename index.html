@@ -29,17 +29,19 @@
 
 <div class="main">
     </div>
-
-<script>
-    window.intergramId = 312940879;
-    window.intergramServer = window.location.origin;
+    <script>
+    window.intergramId = "601159165";
     window.intergramCustomizations = {
-        closedChatAvatarUrl: 'media/demo_avatar.jpg',
-        introMessage: 'Hello! How can I help you?',
-        closedStyle: 'button', // button or chat
+        titleClosed: 'Chat Admin',
+        titleOpen: 'Sedang Chat...',
+        introMessage: 'ada yang bisa dibantu?',
+        autoResponse: 'Selamat datang di Obrolan Langsung dengan Admin',
+        autoNoResponse: 'Selamat datang kembali,' +
+                        'pesan anda akan kami jawab, silahkan tunggu.',
+        mainColor: "#1a73e8", // Can be any css supported color 'red', 'rgb(255,87,34)', etc
+        alwaysUseFloatingButton: true // Use the mobile floating button also on large screens
     };
 </script>
-<script src="src/widget.js"></script>
-
+<script id="intergram" type="text/javascript" src="https://webtgchat.github.io/js/widget.js">
 </body>
 </html>

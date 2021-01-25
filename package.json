@@ -15,7 +15,7 @@
     "lint": "eslint src"
   },
   "authors": [
-    "Ido Cohen (http://github.com/idoco)"
+    "Ido Cohen (http://github.com/webtgchat)"
   ],
   "devDependencies": {
     "webpack-bundle-analyzer": "^3.9.0",
